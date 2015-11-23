@@ -13,6 +13,7 @@
 		700C23ED1C02ED4D001D2DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700C23EB1C02ED4D001D2DD8 /* Main.storyboard */; };
 		700C23EF1C02ED4D001D2DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700C23EE1C02ED4D001D2DD8 /* Assets.xcassets */; };
 		700C23F21C02ED4D001D2DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700C23F01C02ED4D001D2DD8 /* LaunchScreen.storyboard */; };
+		700C23FB1C02EEB0001D2DD8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 700C23FA1C02EEB0001D2DD8 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		700C23EE1C02ED4D001D2DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		700C23F11C02ED4D001D2DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		700C23F31C02ED4D001D2DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700C23F91C02EEB0001D2DD8 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		700C23FA1C02EEB0001D2DD8 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				700C23F01C02ED4D001D2DD8 /* LaunchScreen.storyboard */,
 				700C23F31C02ED4D001D2DD8 /* Info.plist */,
 				700C23E21C02ED4D001D2DD8 /* Supporting Files */,
+				700C23F91C02EEB0001D2DD8 /* Person.h */,
+				700C23FA1C02EEB0001D2DD8 /* Person.m */,
 			);
 			path = "06-谓词的简单演练";
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				700C23EA1C02ED4D001D2DD8 /* ViewController.m in Sources */,
 				700C23E71C02ED4D001D2DD8 /* AppDelegate.m in Sources */,
+				700C23FB1C02EEB0001D2DD8 /* Person.m in Sources */,
 				700C23E41C02ED4D001D2DD8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
